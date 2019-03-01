@@ -1,0 +1,7 @@
+<style> 
+p {font-size:'10px'}
+</style>
+
+<p class="b" style="font-size: 1"
+
+testen Bram
