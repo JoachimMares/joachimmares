@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>2018</title>
+<link rel="stylesheet" type="text/css" href="./magnifier.css">
+<style>
+    a {color: black;}
+    p {font-family:'Courier New'}
+    .imageright{padding-left:120px}
+    .imagerightt{padding-left: 70px}
+    .textright{padding-left: 500px}
+    .textrighttt{padding-left: 600px }
+    .imgblock{margin-right:100px; float: left;}
+    .imgblock2{margin-top: 350px}
+    .scaler{height:758px; width: 1000px;}
+    .floater{float:left}
+</style>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115764858-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115764858-3');
+</script>
+
+</head>
+<body>
+	<p><a href="JoachimMares.html">Joachim Mares</a><br><a href="index.html">Home</a></p>
+	<p><strong>2018</strong></p>
+    
+    <div class="magnifier-thumb-wrapper floater">
+        <img id="thumb" width="1000" height="758" src="finaal 2019/hek 2 clean.jpg" data-large-img-url="finaal 2019/hek 2 clean.jpg" data-large-img-wrapper="preview">
+        <p>tekst</p>
+    </div>
+    <div class="magnifier-preview floater" style="width: 800px; height: 600px" id="preview"></div>
+
+    <div class="magnifier-thumb-wrapper floater">
+        <img id="thumb2" width="1000" height="855" src="finaal 2019/opblaas 1.jpg" data-large-img-url="finaal 2019/opblaas 1.jpg" data-large-img-wrapper="preview">
+        <p>tekst</p>
+    </div>
+    <div id="preview2" class="magnifier-preview floater" style="width: 800px; height: 600px"></div>
+
+	
+	<div class="imgblock2"> <p>Deze website verzamelt cookies om de meest aangename surfervaring te creëeren.<br> Door deze wesite te gebruiken gaat u hiermee akkoord. </p></div>
+	
+	<script type="text/javascript" src="./event.js"></script>
+	<script type="text/javascript" src="./magnifier.js"></script>
+	<script type="text/javascript">
+	var evt = new Event(),
+		m = new Magnifier(evt);
+		
+		m.attach({
+			thumb: '#thumb',
+			zoom: 6,
+			largeWrapper: 'preview'
+		});
+
+		m.attach({
+			thumb: '#thumb2',
+			zoom: 6,
+			largeWrapper: 'preview2'
+		});
+	</script>
+</body>
+</html>
